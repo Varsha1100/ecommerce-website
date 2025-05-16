@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nostra</title>
+     
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+<!--My css-->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+ integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body>
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+          <p class="navbar-link"><a href="collection.html">Collections</a></p>
+         <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--side navbar-->
+   
+<!--product-->
+<div class="--product-section">
+    <form class="product-search">
+        <input type="text" id="search" placeholder="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </form>
+
+    <div class="products" id="products">
+
+        <div class="products-box">
+             <img src="https://images.unsplash.com/photo-1661181475147-bbd20ef65781?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2hpdGUlMjBzaGlydHN8ZW58MHx8MHx8fDA%3D" width="200px" height="200px" alt="">
+             <p>White Shirt</p>
+        </div>
+
+        
+        <div class="products-box">
+            <img src="https://images.unsplash.com/photo-1714228860111-0028d0060b95?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJsYWNrJTIwc2hpcnRzfGVufDB8fDB8fHww" width="200px" height="200px" alt="">
+            <p>Black Shirt</p>
+    </div>
+    
+        <div class="products-box">
+             <img src="https://images.unsplash.com/photo-1671438118097-479e63198629?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2hpdGUlMjBzaGlydHN8ZW58MHx8MHx8fDA%3D" width="200px" height="200px">
+             <p>White Shirt</p>
+        </div>
+
+        
+        <div class="products-box">
+            <img src="https://images.unsplash.com/photo-1688685567160-9c04fe1edf66?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBzaGlydHN8ZW58MHx8MHx8fDA%3D" width="200px" height="200px" alt="">
+        <p>Black Shirt</p>
+    </div>
+     
+        <div class="products-box">
+             <img src="https://media.istockphoto.com/id/1138400603/photo/t-shirt-design-and-people-concept-close-up-of-young-man-in-blank-white-t-shirt-shirt-front.webp?a=1&b=1&s=612x612&w=0&k=20&c=Eiy_2uk-rLjq-IOr4pGjEReG-mZsZbLC4Hlx8I4-kI4=" width="200px" height="200px">
+             <p>White Shirt</p>
+        </div>
+
+        
+        <div class="products-box">
+    <img src="https://images.unsplash.com/photo-1606335192038-f5a05f761b3a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmxhY2slMjBzaGlydHMlMjBmb3IlMjB3b21lbnxlbnwwfHwwfHx8MA%3D%3D" width="200px" height="200px" alt="">
+        <p>Black Shirt</p>
+    </div>
+     
+        <div class="products-box">
+             <img src="https://images.unsplash.com/photo-1669791777784-dddd07abc8a5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdoaXRlJTIwc2hpcnRzfGVufDB8fDB8fHww" width="200px" height="200px">
+             <p>White Shirt</p>
+        </div>
+
+        
+        <div class="products-box">
+            <img src="https://plus.unsplash.com/premium_photo-1689977492903-bd8d201af5bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmxhY2slMjBzaGlydHMlMjBmb3IlMjB3b21lbnxlbnwwfHwwfHx8MA%3D%3D" width="200px" height="200px" alt="">
+           <p>Black Shirt</p>
+    </div>
+
+        <div class="products-box">
+             <img src="https://plus.unsplash.com/premium_photo-1682092846845-d41a89d3ce8b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVkJTIwc2hpcnR8ZW58MHx8MHx8fDA%3D" width="200px" height="200px" alt="">
+             <p>Red Shirt</p>
+        </div>
+
+        
+        <div class="products-box">
+            <img src="https://images.unsplash.com/photo-1643825664857-7e6e4124f289?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8eWVsbG93JTIwc2hpcnR8ZW58MHx8MHx8fDA%3D" width="200px" height="200px" alt="">
+            <p>yellow Shirt</p>
+    </div>
+
+    <div class="products-box">
+             <img src="https://images.unsplash.com/photo-1691010376539-fef5efe07975?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmVzc2lvbmFsJTIwcmVkJTIwc2hpcnR8ZW58MHx8MHx8fDA%3D" width="200px" height="200px" alt="">
+             <p>Red Shirt</p>
+        </div>
+
+        
+        <div class="products-box">
+            <img src="https://images.unsplash.com/photo-1619695441757-d36ffcaca05f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHllbGxvdyUyMHNoaXJ0fGVufDB8fDB8fHww" width="200px" height="200px" alt="">
+            <p>yellow Shirt</p>
+    </div>
+
+    <div class="products-box">
+             <img src="https://images.unsplash.com/photo-1667996112040-15e2cb3ea7d5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2Zlc3Npb25hbCUyMHJlZCUyMHNoaXJ0fGVufDB8fDB8fHww" width="200px" height="200px" alt="">
+             <p>Red Shirt</p>
+        </div>
+
+        
+        <div class="products-box">
+            <img src="https://images.unsplash.com/photo-1618422570177-1b3e54d6beb1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2Zlc3Npb25hbCUyMHllbGxvdyUyMHNoaXJ0fGVufDB8fDB8fHww" width="200px" height="200px" alt="">
+            <p>yellow Shirt</p>
+    </div>
+
+    <div class="products-box">
+             <img src="https://images.unsplash.com/photo-1624373607006-348f61ea2d76?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2Zlc3Npb25hbCUyMHJlZCUyMHNoaXJ0fGVufDB8fDB8fHww" width="200px" height="200px" alt="">
+             <p>Red Shirt</p>
+        </div>
+
+        
+        <div class="products-box">
+            <img src="https://media.istockphoto.com/id/1205720096/photo/portrait-of-her-she-nice-attractive-lovely-cheerful-cheery-wavy-haired-girl-holding-in-hands.webp?a=1&b=1&s=612x612&w=0&k=20&c=1uDtIjDUKIN_Bw5ZjGAzIbGnYt_kXBQRpGUAOKB5wVQ=" width="200px" height="200px" alt="">
+            <p>yellow Shirt</p>
+    </div>
+    </div>
+            
+       
+
+        <!--footer-->
+           <div class="footer">
+            <div class="footer-container">
+                <div class="footer-box-1">
+                    <h2 class="headingText">Nostra</h2>
+                    <p>"Experience the best of fashion and convenience, only at Nostra."</p>
+               <div class="footer-icon-container">
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            </div>
+      </div>
+  </div>
+      <p>@ 2025 Nostra.com</p>
+   </div>
+          
+
+    <script src="collection.js"></script>
+</body>
+</html>
